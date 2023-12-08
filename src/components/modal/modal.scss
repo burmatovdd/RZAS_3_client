@@ -1,0 +1,25 @@
+.modal{
+  text-align: center;
+  &__container{
+    padding-top: 1.5rem;
+  }
+  &__input{
+    margin-right: .5rem;
+  }
+  &__button{
+    padding: .5rem  ;
+    border-radius: .5rem;
+    background-color: #1C1A3F;
+  }
+  &__button:hover{
+    background-color: #7264FF;
+  }
+}
+
+.label{
+  margin-right: 1.5rem;
+}
+
+.checkbox{
+  margin-right: .5rem;
+}

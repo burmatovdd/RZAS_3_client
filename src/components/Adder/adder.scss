@@ -1,0 +1,20 @@
+.adder{
+  width: 100%;
+  background-color: #221F4A;
+  border: 1px solid #302D62;
+  &__container{
+    display: flex;
+    justify-content: end;
+    padding: 3rem 2.5rem;
+  }
+  &__input{
+    margin-right: .5rem;
+  }
+  &__button{
+    padding: .5rem;
+    border-radius: .5rem;
+  }
+  &__button:hover{
+    background-color: #7264FF;
+  }
+}

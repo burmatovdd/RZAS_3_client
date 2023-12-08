@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #1C1A3F;
+  color: white;
+  font-family: Monsterrat,sans-serif;
+}
+
+@font-face {
+  font-family: Monsterrat;
+  src: local("Monsterrat"),
+  url("fonts/Montserrat.ttf") format("truetype");
+}
+
+li {
+  list-style: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #221F4A;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+input{
+  border-radius: 8px;
+  border: 1px solid #302D62;
+  background: #221F4A;
+  padding: .5rem;
+  color: white;
+}

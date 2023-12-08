@@ -1,0 +1,25 @@
+.dashboard{
+  padding-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.container{
+  &__numbers{
+    display: flex;
+  }
+  &__number{
+    margin-right: 5rem;
+  }
+  &__number:last-child{
+    margin-right: 0;
+  }
+  &__table{
+    margin-top: 36px;
+  }
+}

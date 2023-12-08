@@ -1,0 +1,12 @@
+.block{
+  background-color: #221F4A;
+  border-radius: .5rem;
+  &__container{
+    max-width: 140px;
+    padding: 1rem;
+    text-align: center;
+    &-number{
+      font-size: 28px;
+    }
+  }
+}

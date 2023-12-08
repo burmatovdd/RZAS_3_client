@@ -1,0 +1,31 @@
+.nav{
+  &__item{
+    margin-bottom: 2rem;
+    &-row{
+      &-btn{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: #757DA2;
+        border-radius: .5rem;
+        font-size: 14px;
+        padding: 0 .5rem;
+      }
+    }
+    &-row:hover button{
+      background-color: #7264FF;
+    }
+    &-row:hover p{
+      color: white;
+    }
+    &-row:hover svg{
+      stroke: white;
+    }
+  }
+  &__text{
+    margin-left: .5rem;
+  }
+  &__img{
+    stroke: #757DA2;
+  }
+}
